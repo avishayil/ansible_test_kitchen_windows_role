@@ -1,0 +1,5 @@
+- hosts: tag_kitchen_type_windows
+  gather_facts: no
+  tasks:      
+    - include_role:
+        name: ansible_test_kitchen_windows_role
